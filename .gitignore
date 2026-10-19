@@ -1,0 +1,16 @@
+# Local source data and contest documents are not for publication.
+/data/raw/*
+/reference/
+*.csv
+*.zip
+*.hwp
+*.pdf
+# Generated files contain data derived from private local inputs.
+/public/statistics.js
+/public/index.html
+node_modules/
+.env
+.env.*
+!.env.example
+__pycache__/
+.DS_Store
